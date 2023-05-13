@@ -1,0 +1,47 @@
+{
+    "typescript.format.enable": false,
+    "eslint.codeActionsOnSave.rules": null,
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.codeActionsOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "eslint.options": {
+        "extensions": [
+            ".js",
+            ".jsx",
+            ".ts",
+            ".tsx"
+        ]
+    },
+    "debug.javascript.autoExpandGetters": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6"
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        [
+            "src/**/*"
+        ]
+    ],
+    "html.format.contentUnformatted": "",
+    "debug.javascript.usePreview": false,
+    "css.enabledLanguages": [
+        "html",
+        "javascript",
+        "css"
+    ],
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.formatOnType": true,
+        "editor.tabSize": 2
+    }
+}
